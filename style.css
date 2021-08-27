@@ -5,10 +5,10 @@
 }
 
 body {
-    background-image: url(/images/pattern-background-mobile.svg);
+    background-image: url(./images/pattern-background-mobile.svg);
     background-repeat: repeat-x;
     background-color: hsl(225, 100%, 94%);
-    padding: 1.3em;
+    padding: 0 1.3em;
     text-align: center;
     font-family: 'Red Hat Display', sans-serif;
 }   
@@ -16,7 +16,7 @@ body {
 main {
     width: 100%;
     max-width: 420px;
-    margin: 50px auto;
+    margin: 3em auto;
     border-radius: 24px;
     overflow: hidden;
     box-shadow: 0px 8px 25px -15px grey;
@@ -38,7 +38,7 @@ img {
 
 .btm-first h1 {
     color: hsl(223, 47%, 23%);
-    margin: 0.4em 0;
+    margin: 0.35em 0;
     font-weight: 900;
 }
 
@@ -96,7 +96,7 @@ button {
     font-weight: 700;
     width: 100%;
     margin: 1.1em 0;
-    padding: 1em;
+    padding: 0.9em;
     color: #fff;
     background-color: hsl(245, 75%, 52%);
     border-radius: 12px;
@@ -123,10 +123,10 @@ button:hover {
 
 @media (min-width: 750px) {
     body {
-        background-image: url(/images/pattern-background-desktop.svg);
+        background-image: url(./images/pattern-background-desktop.svg);
         background-repeat: repeat-x;
     }
     .bottom {
-        padding: 2em;
+        padding: 1em;
     }
 }
