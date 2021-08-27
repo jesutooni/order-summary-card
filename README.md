@@ -11,7 +11,7 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Links
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://order-summary-fe87f4.netlify.app/)
 
 ## My process
 
