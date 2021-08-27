@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/images/pattern-background-mobile.svg);
+    background-repeat: repeat-x;
+    background-color: hsl(225, 100%, 94%);
+    padding: 1.3em;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+}   
+
+main {
+    width: 100%;
+    max-width: 420px;
+    margin: 50px auto;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0px 8px 25px -15px grey;
+}
+
+.img-top {
+    padding: 0;
+    background-color: #fff;
+}
+
+img {
+    width: 100%;
+}
+
+.bottom {
+    padding: 1em;
+    background-color: #fff;
+}
+
+.btm-first h1 {
+    color: hsl(223, 47%, 23%);
+    margin: 0.4em 0;
+    font-weight: 900;
+}
+
+.btm-first p {
+    color: hsl(224, 23%, 55%);
+    font-size: 1.1rem;
+    margin: 0.9em 0;
+    line-height: 1.5;
+}
+
+.plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.music-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 0.9em;
+}
+
+.plan-container {
+    margin: 1.5em 0;
+    background-color: hsl(225, 100%, 98%);
+    padding: 0.9em;
+    border-radius: 15px;
+}
+
+.plan-text {
+    text-align: left;
+}
+
+.plan-text h3 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.plan-text p {
+    color: hsl(224, 23%, 55%);   
+}
+
+.right {
+    margin-left: auto;
+    font-weight: 700;
+}
+
+.right:hover {
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+button {
+    font-size: 1rem;
+    font-weight: 700;
+    width: 100%;
+    margin: 1.1em 0;
+    padding: 1em;
+    color: #fff;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 12px grey;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+.end p {
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    margin: 0.75em 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.end p:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+@media (min-width: 750px) {
+    body {
+        background-image: url(/images/pattern-background-desktop.svg);
+        background-repeat: repeat-x;
+    }
+    .bottom {
+        padding: 2em;
+    }
+}
